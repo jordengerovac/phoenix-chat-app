@@ -16,7 +16,8 @@ defmodule Phoenixchatapp.Application do
       # Start a worker by calling: Phoenixchatapp.Worker.start_link(arg)
       # {Phoenixchatapp.Worker, arg},
       # Start to serve requests, typically the last entry
-      PhoenixchatappWeb.Endpoint
+      PhoenixchatappWeb.Endpoint,
+      PhoenixchatappWeb.Presence
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
