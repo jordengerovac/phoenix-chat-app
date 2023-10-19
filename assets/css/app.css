@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+html {
+  font-family: 'Arial';
+}
+
+button {
+  color: #ffffff;
+  background-color: #ee8846;
+  padding: 10px;
+  border-radius: 5px;
+}
